@@ -22,8 +22,7 @@ public class Main {
                     try {
                         executor.addCustomer(tokens[1]);
                     } catch (ArrayIndexOutOfBoundsException exception) {
-                        System.out.println("Wrong format. Correct format: \n" +
-                                "\"add Василий Петров vasily.petrov@gmail.com +79215637722\"");
+                        System.out.println("Wrong format. Correct format: \n" + ADD_COMMAND);
                     }
                     break;
                 case "list":
